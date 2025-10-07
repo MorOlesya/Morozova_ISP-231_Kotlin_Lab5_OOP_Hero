@@ -69,11 +69,42 @@ fun main() {
 //    hero.castSpell()
 //    hero.castSpell()
 //    hero.heal()
+//
+//    val hero = Hero()
+//    hero.greet(hero.name)
+//    hero.greet("Наруто")
+//    hero.takeDamage(30)
+//    hero.takeDamage(20)
+//    hero.takeDamage(200)
+//
+//    val naruto: Hero = Hero()
+//    naruto.name = "Наруто"
+//    naruto.role = "Шиноби"
+//    naruto.element = "Ветер"
+//
+//    var orochimaru = Enemy()
+//    orochimaru.name = "Орочимару"
+//    naruto.showStats()
+//    println("Наруто увидел врага ${orochimaru.name}! Его Здоровье - ${orochimaru.hp}")
+//    naruto.attack(orochimaru,25)
 
-    val hero = Hero()
-    hero.greet(hero.name)
-    hero.greet("Наруто")
-    hero.takeDamage(30)
-    hero.takeDamage(20)
-    hero.takeDamage(200)
+    val naruto = Hero()
+    naruto.name = "Hapyтo"
+    naruto.role = "Шиной"
+    naruto.element = "Ветер"
+    naruto.mp = 100
+
+    val kakashi = Hero()
+    kakashi.name = "Какаши"
+    kakashi.role = "Шиной"
+    kakashi.element = "Молния"
+    kakashi.mp = 100
+
+    val orochimaru = Enemy()
+    orochimaru.name = "Орочимар"
+    orochimaru.element = "Ветер"
+
+    naruto.castSpellOn(orochimaru, "Расчитан", 30)
+    println()
+    naruto.duel(kakashi)
 }
