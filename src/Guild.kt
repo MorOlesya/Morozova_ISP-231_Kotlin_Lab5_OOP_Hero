@@ -45,5 +45,8 @@ fun main() {
         println()
     }
 
-
+    println("Bce доступные квесты:")
+    for (q in quests) {
+        q.printInfo()
+    }
 }
