@@ -34,4 +34,6 @@ fun main() {
     guild.addMember(hero2)
     println()
     guild.showMembers()
+    println()
+    guild.averageLevel()
 }

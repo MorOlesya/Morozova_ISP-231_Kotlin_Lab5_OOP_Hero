@@ -15,6 +15,10 @@ class GuildHero {
     }
 
     fun averageLevel(){
-
+        var sumLevel = 0
+        for (hero in members){
+            sumLevel += hero.level
+        }
+        println("средний уровень гильдии: ${sumLevel / members.size}")
     }
 }
