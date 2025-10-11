@@ -1,5 +1,3 @@
-import jdk.jfr.DataAmount
-
 class Hero {
     var name: String = "Неизвестный"
     var gender: String = "Не указан"

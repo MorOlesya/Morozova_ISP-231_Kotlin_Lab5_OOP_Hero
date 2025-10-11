@@ -1,4 +1,6 @@
 fun main() {
+//    val number: Int = 5;
+//
 //    val naruto: Hero = Hero()
 //    println("Имя: ${naruto.name} \nПол: ${naruto.gender} \nКласс: ${naruto.role} \nЗдоровье: ${naruto.hp} \nМана: ${naruto.mp}")
 //
@@ -88,25 +90,25 @@ fun main() {
 //    println("Наруто увидел врага ${orochimaru.name}! Его Здоровье - ${orochimaru.hp}")
 //    naruto.attack(orochimaru,25)
 //
-//    val naruto = Hero()
-//    naruto.name = "Hapyтo"
-//    naruto.role = "Шиной"
-//    naruto.element = "Ветер"
-//    naruto.mp = 100
-//
-//    val kakashi = Hero()
-//    kakashi.name = "Какаши"
-//    kakashi.role = "Шиной"
-//    kakashi.element = "Молния"
-//    kakashi.mp = 100
-//
-//    val orochimaru = Enemy()
-//    orochimaru.name = "Орочимар"
-//    orochimaru.element = "Ветер"
-//
-//    naruto.castSpellOn(orochimaru, "Расчитан", 30)
-//    println()
-//    naruto.duel(kakashi)
+    val naruto = Hero()
+    naruto.name = "Hapyтo"
+    naruto.role = "Шиной"
+    naruto.element = "Ветер"
+    naruto.mp = 100
+
+    val kakashi = Hero()
+    kakashi.name = "Какаши"
+    kakashi.role = "Шиной"
+    kakashi.element = "Молния"
+    kakashi.mp = 100
+
+    val orochimaru = Enemy()
+    orochimaru.name = "Орочимар"
+    orochimaru.element = "Ветер"
+
+    naruto.castSpellOn(orochimaru, "Расчитан", 30)
+    println()
+    naruto.duel(kakashi)
 
 
 }
